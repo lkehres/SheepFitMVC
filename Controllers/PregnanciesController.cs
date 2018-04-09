@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Sheep.Site.Api.Models;
+using Sheep.Site.Api.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Sheep.Site.Api.Controllers
