@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
+using Sheep.Site.Api.Models;
 
 namespace Sheep.Site.Api
 {
@@ -23,6 +25,8 @@ namespace Sheep.Site.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<SheepSiteContext>(opt => opt.UseInMemoryDatabase("Animals"));
+            services.AddDbContext<SheepSiteContext>(opt => opt.UseInMemoryDatabase("Vaccines"));
             services.AddMvc();
         }
 

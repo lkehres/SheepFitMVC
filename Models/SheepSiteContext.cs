@@ -1,4 +1,6 @@
 using System;
+using Sheep.Site.Api.Controllers;
+using Microsoft.EntityFrameworkCore;
 
 namespace Sheep.Site.Api.Models{
     public class SheepSiteContext : DbContext
@@ -8,5 +10,6 @@ namespace Sheep.Site.Api.Models{
         {
         }
         public DbSet<Animal> Animals { get; set; }
+        public DbSet<Vaccine> Vaccines { get; set; }
     }
 }
