@@ -11,8 +11,8 @@ using System;
 namespace Sheep.Site.Api.Migrations
 {
     [DbContext(typeof(SheepSiteContext))]
-    [Migration("20180409202731_initi")]
-    partial class initi
+    [Migration("20180409222944_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
