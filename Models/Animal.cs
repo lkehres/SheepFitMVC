@@ -11,5 +11,6 @@ namespace Sheep.Site.Api.Models
         public List<Vaccine> vaccineNames { get; set; }
         public List<Treatment> treatmentNames { get; set; }
         public List<Pregnancy> pregnancyNames { get; set; }
+
     }
 }
