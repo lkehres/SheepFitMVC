@@ -32,6 +32,13 @@ namespace Sheep.Site.Api.Controllers
                     sheepGender = 'M'
                 });
 
+                this.db.Animals.Add(new Animal
+                {
+                    Id = 3,
+                    sheepDOB = default(DateTime),
+                    sheepGender = 'M'
+                });
+
                 this.db.SaveChanges();
             }
         }
