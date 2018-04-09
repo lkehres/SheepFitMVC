@@ -1,0 +1,10 @@
+/Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.Site.Api/bin/Debug/netcoreapp2.0/Sheep.Site.Api.deps.json
+/Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.Site.Api/bin/Debug/netcoreapp2.0/Sheep.Site.Api.runtimeconfig.json
+/Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.Site.Api/bin/Debug/netcoreapp2.0/Sheep.Site.Api.runtimeconfig.dev.json
+/Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.Site.Api/bin/Debug/netcoreapp2.0/Sheep.Site.Api.dll
+/Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.Site.Api/bin/Debug/netcoreapp2.0/Sheep.Site.Api.pdb
+/Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.Site.Api/obj/Debug/netcoreapp2.0/Sheep.Site.Api.csproj.CoreCompileInputs.cache
+/Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.Site.Api/obj/Debug/netcoreapp2.0/Sheep.Site.Api.AssemblyInfoInputs.cache
+/Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.Site.Api/obj/Debug/netcoreapp2.0/Sheep.Site.Api.AssemblyInfo.cs
+/Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.Site.Api/obj/Debug/netcoreapp2.0/Sheep.Site.Api.dll
+/Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.Site.Api/obj/Debug/netcoreapp2.0/Sheep.Site.Api.pdb
