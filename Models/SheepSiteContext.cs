@@ -11,5 +11,7 @@ namespace Sheep.Site.Api.Models{
         }
         public DbSet<Animal> Animals { get; set; }
         public DbSet<Vaccine> Vaccines { get; set; }
+        public DbSet<Treatment> Treatments { get; set; }
+        public DbSet<Pregnancy> Pregnancies { get; set; }
     }
 }

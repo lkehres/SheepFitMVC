@@ -20,7 +20,6 @@ namespace Sheep.Site.Api.Controllers
             {
                 this.db.Vaccines.Add(new Vaccine {
                     vaccineID = 1,
-                    vId = 1,
                     vaccineName = "Sheep Flu",
                     vaccineDosage = "30 ml",
                     vaccineDate = default(DateTime),
@@ -29,7 +28,6 @@ namespace Sheep.Site.Api.Controllers
                 
                 this.db.Vaccines.Add(new Vaccine {
                     vaccineID = 2,
-                    vId = 1,
                     vaccineName = "Sheep cold",
                     vaccineDosage = "30 ml",
                     vaccineDate = default(DateTime),

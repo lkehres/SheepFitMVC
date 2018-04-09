@@ -27,6 +27,7 @@ namespace Sheep.Site.Api
         {
             services.AddDbContext<SheepSiteContext>(opt => opt.UseInMemoryDatabase("Animals"));
             services.AddDbContext<SheepSiteContext>(opt => opt.UseInMemoryDatabase("Vaccines"));
+            services.AddDbContext<SheepSiteContext>(opt => opt.UseInMemoryDatabase("Treatments"));
             services.AddMvc();
         }
 
