@@ -5,6 +5,7 @@ namespace Sheep.Site.Api.Models
     public class Vaccine
     {
         public int vaccineID { get; set; }
+        public int AnimalId { get; set; }
         public Animal Animal { get; set; }
         public string vaccineName { get; set; }
         public string vaccineDosage { get; set; }

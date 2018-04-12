@@ -22,21 +22,14 @@ namespace Sheep.Site.Api.Controllers
                 this.db.Animals.Add(new Animal {
                     Id = 1,
                     sheepDOB = default(DateTime),
-                    sheepGender = 'F'
+                    sheepGender = "F"
                 });
                 
                 this.db.Animals.Add(new Animal
                 {
                     Id = 2,
                     sheepDOB = default(DateTime),
-                    sheepGender = 'M'
-                });
-
-                this.db.Animals.Add(new Animal
-                {
-                    Id = 3,
-                    sheepDOB = default(DateTime),
-                    sheepGender = 'M'
+                    sheepGender = "M"
                 });
 
                 this.db.SaveChanges();

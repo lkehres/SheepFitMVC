@@ -20,7 +20,7 @@ namespace Sheep.Site.Api.Controllers
             if(this.db.Vaccines.Count() == 0)
             {
                 this.db.Vaccines.Add(new Vaccine {
-                    vaccineID = 1,
+                    AnimalId = 1,
                     vaccineName = "Sheep Flu",
                     vaccineDosage = "30 ml",
                     vaccineDate = default(DateTime),
@@ -28,7 +28,7 @@ namespace Sheep.Site.Api.Controllers
                 });
                 
                 this.db.Vaccines.Add(new Vaccine {
-                    vaccineID = 2,
+                    AnimalId = 2,
                     vaccineName = "Sheep cold",
                     vaccineDosage = "30 ml",
                     vaccineDate = default(DateTime),
