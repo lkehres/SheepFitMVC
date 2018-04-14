@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using Sheep.Site.Api.Models;
+using Sheep.Site.Api.Data;
 
 namespace Sheep.Site.Api
 {
@@ -25,9 +26,8 @@ namespace Sheep.Site.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<SheepSiteContext>(opt => opt.UseInMemoryDatabase("Animals"));
-            services.AddDbContext<SheepSiteContext>(opt => opt.UseInMemoryDatabase("Vaccines"));
-            services.AddDbContext<SheepSiteContext>(opt => opt.UseInMemoryDatabase("Treatments"));
+            services.AddDbContext<SheepSiteContext>(options => options.UseNpgsql(Configuration.GetConnectionString("SheepSiteConnection")));
+
             services.AddMvc();
         }
 

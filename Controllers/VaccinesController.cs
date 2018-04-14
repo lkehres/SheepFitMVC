@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Sheep.Site.Api.Models;
+using Sheep.Site.Api.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Sheep.Site.Api.Controllers
@@ -19,7 +20,7 @@ namespace Sheep.Site.Api.Controllers
             if(this.db.Vaccines.Count() == 0)
             {
                 this.db.Vaccines.Add(new Vaccine {
-                    vaccineID = 1,
+                    AnimalId = 1,
                     vaccineName = "Sheep Flu",
                     vaccineDosage = "30 ml",
                     vaccineDate = default(DateTime),
@@ -27,7 +28,7 @@ namespace Sheep.Site.Api.Controllers
                 });
                 
                 this.db.Vaccines.Add(new Vaccine {
-                    vaccineID = 2,
+                    AnimalId = 2,
                     vaccineName = "Sheep cold",
                     vaccineDosage = "30 ml",
                     vaccineDate = default(DateTime),

@@ -5,6 +5,7 @@ namespace Sheep.Site.Api.Models
     public class Pregnancy
     {
         public int pregnancyID { get; set; }
+        public int AnimalId { get; set; }
         public Animal Animal { get; set; }
         public string conceptionDate { get; set; }
         public string estBirth { get; set; }
